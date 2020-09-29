@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+    <style>
+        #item{
+            position: relative;
+            left: 20%;
+        }
+        ul{
+            position: relative;
+            left: 10%;
+        }
+        #pic-container{
+            position: relative;
+            left: 10%;
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<h1>장준열 홈페이지</h1>
+	</header>
+	<nav>
+		<span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span>
+	</nav>
+  <div class="content">
+	<section class="section1">  
+		<h3>캡스톤(대회행사)</h3>
+		<ul>
+			<li>바코드를 이용한 재고관리</li>
+		</ul>
+		<div id="pic-container">
+			<img id="pic1" class="semi-pic" src="pic1.JPG"/>
+			<img id="pic2" class="semi-pic" src="pic2.JPG"/>
+			<img id="pic3" class="semi-pic" src="pic3.JPG"/>
+		</div>				
+		<h3>프로젝트 내용</h3>
+		<ul>
+			<li>바코드 API인 Zxing 라이브러리를 이용하여 바코드 인식기능 구현</li>
+			<li>앱과앱 연동 재고관리시스템 개발을 위한 web 호스팅 환경 분석</li>
+            <li>앱과앱 연동 재고관리시스템 개발의 기능 도출</li>
+            <li>웹페이지 및 스마트폰 UI구현</li>
+            <li>앱과앱 연동 재고관리시스템 개발의 입고/출고 기능</li>
+		</ul>
+	</section>
+	<aside>
+		<h3>참조링크</h3>
+		<a href="https://www.acmicpc.net/">
+			<img id="item" class="portal" src="baekjoon.JPG" alt="백준 이동" height="50" width="100"/>
+		</a>
+		<a href="http://www.codewars.com/">
+			<img id="item" class="portal" src="codewars.JPG" alt="코드워즈 이동" height="50" width="100"/>
+		</a>
+       
+		<a href="http://www.hackerrank.com/">
+			<img id="item" class="portal" src="hackerrank.JPG" alt="해커랭크 이동" height="50" width="100"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2>Copyright &copy; 2020 Jang, JunYeol </h2>
+	</footer>
+</body>
+</html>

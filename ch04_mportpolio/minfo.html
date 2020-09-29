@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+    <style>
+        #item{
+            position: relative;
+            left: 20%;
+        }
+        ul{
+            position: relative;
+            left: 10%;
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<h1>장준열 홈페이지</h1>        
+	</header>
+	<nav>
+		<span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span>
+	</nav>
+  <div class="content">
+	<section class="section1">  
+		<h3>인적사항</h3>
+		<ul>
+			<li>성    명 : 장준열</li>
+			<li>생년월일 : 1997. 07. 08</li>
+			<li>주    소 : 부산시 동래구 명장2동</li>
+			<li>연 락 처 : 010-9213-3520</li>
+			<li>학    력 
+			<table id="year-table" border="1">
+				<thead>
+					<tr>	<th>년도</th> <th>이력</th></tr>
+				</thead>
+				<tbody>					
+                    <tr>	<td>2015. 3 ~ 2016. 4</td><td> 식당120 근무</td></tr>
+					<tr>	<td>2021. 2.</td><td> 동의과학대학교 컴퓨터정보과 졸업예정</td></tr>                    
+				</tbody>
+			</table>
+			</li>
+		</ul>
+	</section>
+	<img id="logo" src="logo.jpg"/>	
+	<aside>
+		<h3>참조링크</h3>
+		<a href="https://www.acmicpc.net/">
+			<img id="item" class="portal" src="baekjoon.JPG" alt="백준 이동" height="50" width="100"/>
+		</a>
+		<a href="http://www.codewars.com/">
+			<img id="item" class="portal" src="codewars.JPG" alt="코드워즈 이동" height="50" width="100"/>
+		</a>
+       
+		<a href="http://www.hackerrank.com/">
+			<img id="item" class="portal" src="hackerrank.JPG" alt="해커랭크 이동" height="50" width="100"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2>Copyright &copy; 2020 Jang, JunYeol </h2>
+	</footer>
+</body>
+</html>
